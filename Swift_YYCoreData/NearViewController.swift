@@ -1,18 +1,18 @@
 //
-//  ViewController.swift
-//  Swift_YYCoreData
+//  NearViewController.swift
+//  BanTanApp
 //
-//  Created by Jeson on 08/09/2017.
+//  Created by Jeson on 29/06/2017.
 //  Copyright © 2017 Jeson. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController{
-    
+class NearViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = .white
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,4 +20,3 @@ class ViewController: UIViewController{
         // Dispose of any resources that can be recreated.
     }
 }
-

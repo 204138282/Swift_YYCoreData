@@ -13,6 +13,11 @@
 		1656B6E71F62719E00C12138 /* Swift_YYCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1656B6E51F62719E00C12138 /* Swift_YYCoreData.xcdatamodeld */; };
 		1656B6E91F62719E00C12138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1656B6E81F62719E00C12138 /* Assets.xcassets */; };
 		1656B6EC1F62719E00C12138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1656B6EA1F62719E00C12138 /* LaunchScreen.storyboard */; };
+		1656B6F61F628C4200C12138 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656B6F51F628C4200C12138 /* MainTabBarVC.swift */; };
+		1656B6F81F628F3400C12138 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656B6F71F628F3400C12138 /* HomeViewController.swift */; };
+		1656B6FA1F628F4B00C12138 /* NearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656B6F91F628F4B00C12138 /* NearViewController.swift */; };
+		1656B6FC1F628F6000C12138 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656B6FB1F628F6000C12138 /* OrderViewController.swift */; };
+		1656B6FE1F628F7600C12138 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1656B6FD1F628F7600C12138 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1656B6E81F62719E00C12138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1656B6EB1F62719E00C12138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1656B6ED1F62719E00C12138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1656B6F51F628C4200C12138 /* MainTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		1656B6F71F628F3400C12138 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1656B6F91F628F4B00C12138 /* NearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearViewController.swift; sourceTree = "<group>"; };
+		1656B6FB1F628F6000C12138 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		1656B6FD1F628F7600C12138 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 		1656B6DD1F62719E00C12138 /* Swift_YYCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				1656B6F71F628F3400C12138 /* HomeViewController.swift */,
+				1656B6F91F628F4B00C12138 /* NearViewController.swift */,
+				1656B6FB1F628F6000C12138 /* OrderViewController.swift */,
+				1656B6FD1F628F7600C12138 /* MyViewController.swift */,
+				1656B6F51F628C4200C12138 /* MainTabBarVC.swift */,
 				1656B6DE1F62719E00C12138 /* AppDelegate.swift */,
 				1656B6E01F62719E00C12138 /* ViewController.swift */,
 				1656B6E21F62719E00C12138 /* Main.storyboard */,
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1656B6F81F628F3400C12138 /* HomeViewController.swift in Sources */,
 				1656B6E11F62719E00C12138 /* ViewController.swift in Sources */,
+				1656B6FA1F628F4B00C12138 /* NearViewController.swift in Sources */,
+				1656B6FC1F628F6000C12138 /* OrderViewController.swift in Sources */,
 				1656B6E71F62719E00C12138 /* Swift_YYCoreData.xcdatamodeld in Sources */,
 				1656B6DF1F62719E00C12138 /* AppDelegate.swift in Sources */,
+				1656B6FE1F628F7600C12138 /* MyViewController.swift in Sources */,
+				1656B6F61F628C4200C12138 /* MainTabBarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
